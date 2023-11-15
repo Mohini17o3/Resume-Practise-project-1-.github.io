@@ -1,0 +1,159 @@
+h1{
+    
+  margin:50px auto 0 auto;
+  font-family: sacramento, sans-serif;
+  font-size: 5.625rem;   
+  color: #66BFBF;
+  line-height: 2;
+  /* a 100 % is 16px ...90 px is (90/16)*100 = 562.5 % , we want our size to be dynamic..
+  so as when a user changes the size of webpage it changes too..  
+
+  1 em is 16 pixels ....in earlier times 1 em used to represent size of 1 M ..
+  1 em = 16px = 1cm
+   */
+   /* width:10%;
+   margin:0 auto 0 auto;    */
+   /* or we can write as margin : 0 auto ...which means top and bottom is zero , left and right are auto */
+}
+h2{
+    font-family: Montserrat,sans-serif;
+    font-size: 2.5rem;
+    color: #66BFBF;
+    font-weight: normal;
+    padding-bottom: 10px;
+}
+
+h3{
+    font-family: Montserrat;
+    color:#11999E ;
+    
+
+}
+
+body{
+    font-family: Merriweather , sans-serif;
+    /* margin:0;  */
+    text-align: center;
+    font-size: 100%;
+    color: #40514e;
+}
+p{
+    line-height: 2 ;
+    
+}
+hr{
+    border:dotted #EAF6F6 6px  ;
+    margin: 100px auto ;
+    width: 4%;
+    border-bottom: none;
+}
+a{
+    color: #11999E;
+    font-family: Montserrat, sans-serif;
+    margin: 10px 20px ;
+    text-decoration: none;
+}
+a:hover{
+    color: #EAF6F6;
+}
+.top-container {
+    background-color:#EAF6F6;   
+    position: relative;
+    padding-top: 100px;
+
+} 
+.middle-container {
+   margin: 100px 0;
+}
+.bottom-container {
+ 
+    background-color: #66BFBF;
+    height: max-content;
+    padding: 50px 0 20px ;
+   
+
+}
+.underline{
+    text-decoration: underline;
+}
+.top-cloud{
+    position: absolute ;
+    top : 8%;
+    left: 70%;
+
+}
+.bottom-cloud{
+    position: absolute ;
+    top:50% ;
+    left: 250px;
+}
+.footer-link{
+    color: #11999E;
+    padding:50px auto 0 auto;
+    
+
+}
+.copyright{
+    color: #EAF6F6;
+    font-size: 0.75rem;
+    padding: 20px 0;
+}
+
+    
+    .btn {
+        background: #3498db;
+        background-image: -webkit-linear-gradient(top, #11cdd4,  #11999e);
+        background-image: -moz-linear-gradient(top, #11cdd4,  #11999e);
+        background-image: -ms-linear-gradient(top, #11cdd4,  #11999e);
+        background-image: -o-linear-gradient(top, #11cdd4,  #11999e);
+        background-image: linear-gradient(to bottom, #11cdd4,  #11999e);
+        -webkit-border-radius: 28;
+        -moz-border-radius: 28;
+        border-radius: 8px;
+        font-family: Montserrat,sans-serif;
+        color: #11999E;
+        font-size: 20px;
+        padding: 10px 20px 10px 20px;
+        text-decoration: none;
+      }
+      
+      .btn:hover {
+        background: #3cb0fd;
+        background-image: -webkit-linear-gradient(top, #30e3cb,  #2bc4ad);
+        background-image: -moz-linear-gradient(top, #30e3cb,  #2bc4ad);
+        background-image: -ms-linear-gradient(top, #30e3cb,  #2bc4ad);
+        background-image: -o-linear-gradient(top, #30e3cb,  #2bc4ad);
+        background-image: linear-gradient(to bottom, #30e3cb,  #2bc4ad);
+        text-decoration: none;
+
+      }
+
+
+.skill-row{
+    width: 50%;
+    margin:100px auto 100px auto;
+    text-align: left;
+
+}
+.skill-image1{
+    width: 25%;
+    float: left;
+    margin-right: 30px;
+}
+.skill-image2{
+    width: 25%;
+    float: right;
+    margin-left: 30px;
+}
+/* .clear1{
+    clear: right;
+}  example for using clear attribute ..for 2nd paragraph ...which was temporarily assigned class clear1*/
+
+.contact-me{
+    padding-bottom: 30px ;
+   
+}
+.intro{
+    width: 50%;
+    margin: auto;
+}
